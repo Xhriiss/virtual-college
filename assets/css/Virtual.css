@@ -21,6 +21,18 @@ body{
     width: 90%;
     margin: auto;
 }
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+a:visited{
+    color: white;
+    
+}
 header{
     background-color: var(--testing-color);
     width: 100%;
