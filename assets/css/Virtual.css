@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+:root{
+    --primary-color:#56A0D3;
+    --secondary-color:#d8e4db;
+    --testing-color:#4D5D53;
+    --success-color:#191d1a;
+    --warning-color:#9ccae9;
+}
+body{
+    background-color: white ;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: var(--testing-color);
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    color:white;
+}
+li{
+    display: inline-block;
+    /* margin: 0px 9px; */
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
+header img {
+    width: 20px;
+    height: 20px;
+}
+.v_l{
+    padding: 20px;
+    background-color: var(--success-color);
+    width: 120px;
+    text-align: center;
+}
+.first_cont{
+padding: 10px;
+display: inline-block;
+word-spacing: 8px;
+width: 80%;
+margin: 0px 300px;
+}
+.first_cont img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.first_cont p, .first_cont img{
+    display: inline-block;
+}
+.secd_cont{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: justify;
+    padding: 11px;
+}
+.secd_cont ul{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.secd_cont a:link{
+    text-decoration: none;
+    color: white;
+}
+.secd_cont a:hover{
+    text-decoration: underline;
+    color: white
+}
+.secd_cont .v_l{
+    width: 200px;
+}
+.third_cont{
+    width: 100;
+    background-color: var(--secondary-color);
+    padding: 10px;
+
+}
+.third_cont h2{
+    text-align: center;
+}
+.three_box{
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.img_set{
+    width: 100px;
+    height: 100px;
+}
+.img_cont{
+    width: 90%;
+    margin: auto;
+    background-color: var(--warning-color);
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+}
